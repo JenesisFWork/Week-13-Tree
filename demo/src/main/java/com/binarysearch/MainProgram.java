@@ -41,6 +41,13 @@ public class MainProgram {
         // student needs to write code to
         // then print results of the search
       }
+        if (!command.equals(max)) {
+        Integer val = Integer.parseInt(command);
+        System.out.printf("The value %d\n is in the tree", val);
+        }
+        else {
+        System.out.printf("The value %d\n is not in the tree");
+        }
     }
   }
 
